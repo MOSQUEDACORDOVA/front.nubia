@@ -49,6 +49,6 @@ Crear una rama ej: nubia-integracion-temporal
 Borrar los datos del proyecto anterior:
 git rm -rf .  
 
-### Clonar repositorio
+### Clonar repositorio sin depender de el
 git archive --remote=https://github.com/MOSQUEDACORDOVA/front.nubia.git HEAD | tar -x
 
