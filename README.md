@@ -43,5 +43,12 @@ firebase deploy --only hosting
 # LOGOS
 convert favicon.png -resize 48x48 favicon.ico
 
-# Clonar repositorio
+
+## Integrar un un proyecto existente:
+Crear una rama ej: nubia-integracion-temporal
+Borrar los datos del proyecto anterior:
+git rm -rf .  
+
+### Clonar repositorio
 git archive --remote=https://github.com/MOSQUEDACORDOVA/front.nubia.git HEAD | tar -x
+
