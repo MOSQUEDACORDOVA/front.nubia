@@ -42,3 +42,6 @@ firebase deploy --only hosting
 
 # LOGOS
 convert favicon.png -resize 48x48 favicon.ico
+
+# Clonar repositorio
+git archive --remote=https://github.com/MOSQUEDACORDOVA/front.nubia.git HEAD | tar -x
